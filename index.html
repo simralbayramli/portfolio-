@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Portfolio Creator</title>
+</head>
+
+<body>
+    <div class="container">
+        <!--header start-->
+        <header class="header">
+            
+            <div class="logo portfolio-creator">
+                <svg width="197" height="21" viewBox="0 0 197 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M0.492012 20V1.47422H8.10126C9.3778 1.47422 10.505 1.69802 11.4831 2.14563C12.4778 2.59323 13.257 3.25634 13.8206 4.13497C14.3843 5.0136 14.6661 6.0994 14.6661 7.3925C14.6661 8.6524 14.376 9.7217 13.7958 10.6003C13.2321 11.479 12.4529 12.1504 11.4583 12.6146C10.4802 13.0622 9.3612 13.286 8.10126 13.286H4.34637V20H0.492012ZM4.34637 9.9289H8.12612C8.93844 9.9289 9.585 9.6968 10.0657 9.2327C10.5631 8.7685 10.8117 8.1551 10.8117 7.3925C10.8117 6.6134 10.5631 5.99169 10.0657 5.52751C9.585 5.06333 8.93844 4.83124 8.12612 4.83124H4.34637V9.9289ZM22.3187 20.2984C20.9759 20.2984 19.7491 19.9917 18.6384 19.3783C17.5442 18.7649 16.6739 17.9278 16.0274 16.8668C15.3808 15.7892 15.0576 14.5707 15.0576 13.2114C15.0576 11.8354 15.3808 10.6169 16.0274 9.5559C16.6739 8.495 17.5442 7.6578 18.6384 7.0444C19.7491 6.431 20.9759 6.1243 22.3187 6.1243C23.6615 6.1243 24.8799 6.431 25.9741 7.0444C27.0848 7.6578 27.9634 8.495 28.61 9.5559C29.2565 10.6169 29.5798 11.8354 29.5798 13.2114C29.5798 14.5707 29.2565 15.7892 28.61 16.8668C27.9634 17.9278 27.0848 18.7649 25.9741 19.3783C24.8799 19.9917 23.6615 20.2984 22.3187 20.2984ZM22.3187 16.9414C23.3465 16.9414 24.1671 16.5932 24.7805 15.897C25.4104 15.2007 25.7254 14.3055 25.7254 13.2114C25.7254 12.1338 25.4104 11.2469 24.7805 10.5506C24.1671 9.8378 23.3465 9.4813 22.3187 9.4813C21.3074 9.4813 20.4868 9.8378 19.8568 10.5506C19.2269 11.2469 18.9119 12.1338 18.9119 13.2114C18.9119 14.3055 19.2269 15.2007 19.8568 15.897C20.4868 16.5932 21.3074 16.9414 22.3187 16.9414ZM31.0724 20V6.4227H34.5537V8.4618C34.9019 7.6163 35.3909 7.0444 36.0209 6.746C36.6674 6.431 37.4051 6.2735 38.234 6.2735H39.6514V9.5062H37.861C36.9492 9.5062 36.2115 9.788 35.6479 10.3517C35.0842 10.8987 34.8024 11.6779 34.8024 12.6892V20H31.0724ZM47.9023 20.1492C46.2611 20.1492 44.9846 19.7099 44.0729 18.8313C43.1776 17.9361 42.73 16.6927 42.73 15.1012V9.6554H40.3926V6.4227H40.5666C42.0089 6.4227 42.73 5.72645 42.73 4.3339V2.34456H46.4601V6.4227H49.643V9.6554H46.4601V15.1012C46.4601 16.4772 47.2309 17.1652 48.7727 17.1652C49.0048 17.1652 49.2949 17.1403 49.643 17.0906V20.0249C49.0959 20.1078 48.5157 20.1492 47.9023 20.1492ZM52.2128 20V9.6554H49.9002V6.4227H52.2128V6.0248C52.2128 4.41679 52.6853 3.17345 53.6303 2.29483C54.5752 1.4162 55.8931 0.976879 57.5841 0.976879C58.0814 0.976879 58.5207 1.01833 58.902 1.10122V4.28417C58.587 4.23444 58.3135 4.20957 58.0814 4.20957C56.6557 4.20957 55.9429 4.81466 55.9429 6.0248V6.4227H58.8772V9.6554H55.9429V20H52.2128ZM66.4194 20.2984C65.0766 20.2984 63.8498 19.9917 62.7391 19.3783C61.6449 18.7649 60.7746 17.9278 60.1281 16.8668C59.4815 15.7892 59.1583 14.5707 59.1583 13.2114C59.1583 11.8354 59.4815 10.6169 60.1281 9.5559C60.7746 8.495 61.6449 7.6578 62.7391 7.0444C63.8498 6.431 65.0766 6.1243 66.4194 6.1243C67.7622 6.1243 68.9807 6.431 70.0748 7.0444C71.1855 7.6578 72.0641 8.495 72.7107 9.5559C73.3572 10.6169 73.6805 11.8354 73.6805 13.2114C73.6805 14.5707 73.3572 15.7892 72.7107 16.8668C72.0641 17.9278 71.1855 18.7649 70.0748 19.3783C68.9807 19.9917 67.7622 20.2984 66.4194 20.2984ZM66.4194 16.9414C67.4472 16.9414 68.2678 16.5932 68.8812 15.897C69.5112 15.2007 69.8261 14.3055 69.8261 13.2114C69.8261 12.1338 69.5112 11.2469 68.8812 10.5506C68.2678 9.8378 67.4472 9.4813 66.4194 9.4813C65.4081 9.4813 64.5875 9.8378 63.9576 10.5506C63.3276 11.2469 63.0126 12.1338 63.0126 13.2114C63.0126 14.3055 63.3276 15.2007 63.9576 15.897C64.5875 16.5932 65.4081 16.9414 66.4194 16.9414ZM75.1731 20V1.47422H78.9031V20H75.1731ZM81.1411 5.20424V1.47422H84.8711V5.20424H81.1411ZM81.1411 20V6.4227H84.8711V20H81.1411ZM93.6243 20.2984C92.2814 20.2984 91.0547 19.9917 89.944 19.3783C88.8498 18.7649 87.9795 17.9278 87.3329 16.8668C86.6864 15.7892 86.3631 14.5707 86.3631 13.2114C86.3631 11.8354 86.6864 10.6169 87.3329 9.5559C87.9795 8.495 88.8498 7.6578 89.944 7.0444C91.0547 6.431 92.2814 6.1243 93.6243 6.1243C94.9671 6.1243 96.1855 6.431 97.2797 7.0444C98.3904 7.6578 99.269 8.495 99.916 9.5559C100.562 10.6169 100.885 11.8354 100.885 13.2114C100.885 14.5707 100.562 15.7892 99.916 16.8668C99.269 17.9278 98.3904 18.7649 97.2797 19.3783C96.1855 19.9917 94.9671 20.2984 93.6243 20.2984ZM93.6243 16.9414C94.6521 16.9414 95.4727 16.5932 96.0861 15.897C96.716 15.2007 97.031 14.3055 97.031 13.2114C97.031 12.1338 96.716 11.2469 96.0861 10.5506C95.4727 9.8378 94.6521 9.4813 93.6243 9.4813C92.613 9.4813 91.7924 9.8378 91.1624 10.5506C90.5325 11.2469 90.2175 12.1338 90.2175 13.2114C90.2175 14.3055 90.5325 15.2007 91.1624 15.897C91.7924 16.5932 92.613 16.9414 93.6243 16.9414ZM115.574 20.2984C114.248 20.2984 113.013 20.058 111.869 19.5773C110.742 19.0965 109.756 18.4251 108.91 17.5631C108.065 16.701 107.402 15.6898 106.921 14.5293C106.457 13.3688 106.225 12.1006 106.225 10.7247C106.225 9.3487 106.457 8.0805 106.921 6.9201C107.385 5.74303 108.04 4.73178 108.885 3.8863C109.731 3.02425 110.717 2.36114 111.844 1.89696C112.988 1.4162 114.232 1.17582 115.574 1.17582C116.917 1.17582 118.119 1.39962 119.18 1.84722C120.258 2.29483 121.169 2.89163 121.916 3.63763C122.662 4.38364 123.192 5.21253 123.507 6.1243L120.1 7.7655C119.785 6.8703 119.23 6.1326 118.434 5.55238C117.655 4.95558 116.702 4.65717 115.574 4.65717C114.48 4.65717 113.519 4.91413 112.69 5.42805C111.861 5.94196 111.214 6.6548 110.75 7.5666C110.303 8.4618 110.079 9.5145 110.079 10.7247C110.079 11.9349 110.303 12.9958 110.75 13.9076C111.214 14.8194 111.861 15.5323 112.69 16.0462C113.519 16.5601 114.48 16.817 115.574 16.817C116.702 16.817 117.655 16.5269 118.434 15.9467C119.23 15.3499 119.785 14.6039 120.1 13.7087L123.507 15.3499C123.192 16.2617 122.662 17.0906 121.916 17.8366C121.169 18.5826 120.258 19.1794 119.18 19.627C118.119 20.0746 116.917 20.2984 115.574 20.2984ZM125.242 20V6.4227H128.723V8.4618C129.071 7.6163 129.56 7.0444 130.19 6.746C130.837 6.431 131.575 6.2735 132.403 6.2735H133.821V9.5062H132.03C131.119 9.5062 130.381 9.788 129.817 10.3517C129.254 10.8987 128.972 11.6779 128.972 12.6892V20H125.242ZM141.437 20.2984C140.011 20.2984 138.76 19.9834 137.682 19.3535C136.621 18.7069 135.792 17.8449 135.195 16.7673C134.615 15.6898 134.325 14.4961 134.325 13.1865C134.325 11.8271 134.623 10.6169 135.22 9.5559C135.834 8.495 136.654 7.6578 137.682 7.0444C138.726 6.431 139.895 6.1243 141.188 6.1243C142.465 6.1243 143.609 6.4227 144.62 7.0195C145.631 7.6163 146.435 8.4204 147.032 9.4316C147.629 10.4263 147.927 11.5536 147.927 12.8135C147.927 13.0787 147.911 13.344 147.877 13.6092C147.861 13.8579 147.819 14.0734 147.753 14.2558H138.204C138.32 15.1012 138.668 15.7809 139.249 16.2948C139.829 16.8088 140.575 17.0657 141.487 17.0657C142.15 17.0657 142.713 16.9331 143.178 16.6678C143.658 16.4026 144.031 16.0379 144.297 15.5737L147.281 16.9911C146.866 17.9858 146.137 18.7898 145.092 19.4032C144.048 20 142.829 20.2984 141.437 20.2984ZM141.188 9.1083C140.459 9.1083 139.837 9.3156 139.323 9.73C138.809 10.1445 138.461 10.7413 138.279 11.5204H143.973C143.907 10.791 143.617 10.2108 143.103 9.7797C142.606 9.3321 141.967 9.1083 141.188 9.1083ZM153.451 20.2984C152.423 20.2984 151.528 20.1243 150.766 19.7762C150.02 19.4115 149.439 18.9307 149.025 18.3339C148.627 17.7205 148.428 17.0408 148.428 16.2948C148.428 15.2836 148.809 14.4547 149.572 13.8082C150.335 13.145 151.404 12.6726 152.78 12.3908L157.032 11.4955V11.0479C157.032 10.534 156.841 10.1279 156.46 9.8295C156.079 9.5145 155.573 9.357 154.943 9.357C154.28 9.357 153.692 9.5394 153.178 9.9041C152.68 10.2522 152.332 10.733 152.133 11.3463L148.926 9.8046C149.323 8.6773 150.061 7.7821 151.139 7.119C152.233 6.4559 153.501 6.1243 154.943 6.1243C156.104 6.1243 157.115 6.3315 157.977 6.746C158.856 7.1604 159.535 7.7407 160.016 8.4867C160.513 9.2161 160.762 10.0699 160.762 11.0479V20H157.281V18.7567C156.767 19.3037 156.195 19.7016 155.565 19.9503C154.952 20.1824 154.247 20.2984 153.451 20.2984ZM152.283 16.2451C152.283 16.6596 152.44 16.9828 152.755 17.2149C153.07 17.447 153.493 17.5631 154.023 17.5631C154.869 17.5631 155.582 17.2978 156.162 16.7673C156.742 16.2368 157.032 15.5903 157.032 14.8277V14.1812L153.451 14.9769C152.672 15.1593 152.283 15.582 152.283 16.2451ZM169.015 20.1492C167.374 20.1492 166.098 19.7099 165.186 18.8313C164.291 17.9361 163.843 16.6927 163.843 15.1012V9.6554H161.506V6.4227H161.68C163.122 6.4227 163.843 5.72645 163.843 4.3339V2.34456H167.573V6.4227H170.756V9.6554H167.573V15.1012C167.573 16.4772 168.344 17.1652 169.886 17.1652C170.118 17.1652 170.408 17.1403 170.756 17.0906V20.0249C170.209 20.1078 169.629 20.1492 169.015 20.1492ZM178.772 20.2984C177.429 20.2984 176.202 19.9917 175.091 19.3783C173.997 18.7649 173.127 17.9278 172.48 16.8668C171.834 15.7892 171.511 14.5707 171.511 13.2114C171.511 11.8354 171.834 10.6169 172.48 9.5559C173.127 8.495 173.997 7.6578 175.091 7.0444C176.202 6.431 177.429 6.1243 178.772 6.1243C180.115 6.1243 181.333 6.431 182.427 7.0444C183.538 7.6578 184.417 8.495 185.063 9.5559C185.71 10.6169 186.033 11.8354 186.033 13.2114C186.033 14.5707 185.71 15.7892 185.063 16.8668C184.417 17.9278 183.538 18.7649 182.427 19.3783C181.333 19.9917 180.115 20.2984 178.772 20.2984ZM178.772 16.9414C179.8 16.9414 180.62 16.5932 181.234 15.897C181.864 15.2007 182.178 14.3055 182.178 13.2114C182.178 12.1338 181.864 11.2469 181.234 10.5506C180.62 9.8378 179.8 9.4813 178.772 9.4813C177.76 9.4813 176.94 9.8378 176.31 10.5506C175.68 11.2469 175.365 12.1338 175.365 13.2114C175.365 14.3055 175.68 15.2007 176.31 15.897C176.94 16.5932 177.76 16.9414 178.772 16.9414ZM187.525 20V6.4227H191.007V8.4618C191.355 7.6163 191.844 7.0444 192.474 6.746C193.12 6.431 193.858 6.2735 194.687 6.2735H196.104V9.5062H194.314C193.402 9.5062 192.665 9.788 192.101 10.3517C191.537 10.8987 191.255 11.6779 191.255 12.6892V20H187.525Z"
+                        fill="black" />
+                </svg>
+                <svg width="4" height="4" viewBox="0 0 4 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.244019 4V0.27H3.97401V4H0.244019Z" fill="url(#paint0_linear_1_449)" />
+                    <defs>
+                        <linearGradient id="paint0_linear_1_449" x1="-1.98898" y1="0.5372" x2="5.18601" y2="0.5302"
+                            gradientUnits="userSpaceOnUse">
+                            <stop offset="0.197917" stop-color="#B16CEA" />
+                            <stop offset="0.557292" stop-color="#FF5E69" />
+                            <stop offset="0.828125" stop-color="#FF8A56" />
+                            <stop offset="1" stop-color="#FFA84B" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+
+            </div>
+                <i class="fa-solid fa-bars-staggered" id="bars" ></i>
+            <div class="navbar" id="mobilMenu">
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Projects</a>
+                <a href="#">Blog</a>
+                <a href="#">Book a Call</a>
+                <a href="#"><svg width="13" height="13" viewBox="0 0 13 13" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M9.72837 5.50978L5.57767 1.35907L6.67183 0.2649L12.6905 6.28359L6.67183 12.3023L5.57767 11.2081L9.72837 7.0574H0.30957V5.50978H9.72837Z"
+                            fill="black" />
+                    </svg>
+                </a>
+            </div>
+        
+        </header>
+        <!--header finish-->
+        <!--about start-->
+        <section class="about">
+            <div class="left-side left">
+                <h1><span>I design products</span> <br>
+                    that delight and <br>
+                    inspire people.
+                </h1>
+                <p>Hi! I’m Jake, a product designer based in Berlin. I create <br>
+                    user-friendly interfaces for fast-growing startups.</p>
+                <div class="download">
+                    <button>Book a call</button>
+                    <a href="#">Download CV</a>
+                    <a href="#"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.4767 5.93361L6.00671 1.46361L7.18504 0.285278L13.6667 6.76694L7.18504 13.2486L6.00671 12.0703L10.4767 7.60028H0.333374V5.93361H10.4767Z"
+                                fill="black" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="right-side">
+                <img src="./assets/images/about img/a-1.png" alt="" class="top">
+            </div>
+
+        </section>
+        <!--about finish-->
+        <!--trusted start-->
+        <section class="trusted">
+            <div class="trusted-top">
+                <h5>Trusted by</h5>
+            </div>
+            <div class="trusted-bottom">
+                <div class="trusted-img">
+                    <img src="./assets/images/trusted img/t-1.png" alt="portfolio creator">
+                </div>
+                <div class="trusted-img">
+                    <img src="./assets/images/trusted img/t-2.png" alt="portfolio creator">
+                </div>
+                <div class="trusted-img">
+                    <img src="./assets/images/trusted img/t-3.png" alt="portfolio creartor">
+                </div>
+                <div class="trusted-img">
+                    <img src="./assets/images/trusted img/t-4.png" alt="portfolio creator">
+                </div>
+            </div>
+        </section>
+        <!--trustend finish-->
+        <!--services start-->
+        <section class="services">
+            <div class="services-top">
+                <h5>Services</h5>
+                <p>Design that solves problems, <br>
+                    one product at a time.</p>
+            </div>
+            <div class="services-bottom">
+                <div class="services-cards top">
+                   <img src="./assets/svgs/service-1.svg" alt="services">
+                    <h2>What I can do for you</h2>
+                    <p>Faster, better products that your <br>
+                        users love. Here's all the services I <br>
+                        provide:</p>
+                    <ul>
+                        <li>Design Strategy</li>
+                        <li>Web and Mobile App Design</li>
+                        <li>Front-end Development</li>
+                    </ul>
+
+                </div>
+                <div class="services-cards left">
+                    <img src="./assets/svgs/service-2.svg" alt="service">
+                    <h2>Applications I'm fluent in</h2>
+                    <p>Every designer needs the right <br>
+                        tools to do the perfect job. <br>
+                        Thankfully, I'm multilingual.</p>
+                    <ul>
+                        <li>Sketch</li>
+                        <li>Webflow</li>
+                        <li>Figma</li>
+                    </ul>
+
+
+                </div>
+                <div class="services-cards top">
+                   <img src="./assets/svgs/service-3.svg" alt="service">
+                    <h2>What you can expect</h2>
+                    <p>I design products that are more <br>
+                        than pretty. I make them shippable <br>
+                        and usable.</p>
+                    <ul>
+                        <li>Clean and functional</li>
+                        <li>Device and user friendly</li>
+                        <li>Efficient and maintainable</li>
+                    </ul>
+
+                </div>
+            </div>
+        </section>
+        <!--services finish-->
+       
+        <!--projects start-->
+        
+        <section class="projects">
+            <div class="projects-top">
+                <div class="projects-header">
+                    <h5>PROJECTS</h5>
+                    <p>I bring results. <br>
+                        My clients are proof.
+                    </p>
+                </div>
+
+                <div class="projects-button">
+                    <button>View all projects</button>
+
+                </div>
+
+            </div>
+            <div class="projects-bottom">
+                <div class="projects-cards">
+                    <div class="projects-img">
+                        <img src="./assets/images/projects img/p-1.png" alt="projects">
+                    </div>
+                    <h3>Branding</h3>
+                    <p>Branding</p>
+                    <a href="#">View Project <img src="./assets/svgs/project-1.svg" alt="project">
+                    </a>
+                </div>
+                <div class="projects-cards">
+                    <div class="projects-img">
+                        <img src="./assets/images/projects img/p-2.png" alt="projects">
+                    </div>
+                    <h3>Product Design</h3>
+                    <p>Datadash Product design</p>
+                    <a href="#">View Project <img src="./assets/svgs/project-2.svg" alt="project">
+                    </a>
+                </div>
+
+                <div class="projects-cards">
+                    <div class="projects-img">
+                        <img src="./assets/images/projects img/p-3.png" alt="projects">
+                    </div>
+                    <h3>Web Design</h3>
+                    <p>Maize Website Design</p>
+                    <a href="#">View Project <img src="./assets/svgs/project-3.svg" alt="project">
+                    </a>
+                </div>
+
+
+            </div>
+           <div class="cards-button"> <svg width="54" height="34" viewBox="0 0 115 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 0H54V54H0V0Z" fill="white" />
+            <path
+                d="M25.5349 26.3431L31.7224 32.0546L29.9549 33.6861L21.9999 26.3431L29.9549 19L31.7224 20.6315L25.5349 26.3431Z"
+                fill="black" />
+            <path d="M61 0H115V54H61V0Z" fill="white" />
+            <path
+                d="M89.1875 26.3431L83 20.6315L84.7675 19L92.7225 26.3431L84.7675 33.6862L83 32.0546L89.1875 26.3431Z"
+                fill="black" />
+        </svg></div>
+
+        </section>
+        <!--projects finish-->
+        <!--blogs start-->
+        
+        <section class="blogs">
+
+            <div class="blogs-left top">
+                <h5>Blogs</h5>
+                <p>Latest Blogs</p>
+                <a href="#">View all<svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M10.1433 5.64833L5.67333 1.17833L6.85167 0L13.3333 6.48167L6.85167 12.9633L5.67333 11.785L10.1433 7.315H0V5.64833H10.1433Z"
+                            fill="white" />
+                    </svg>
+
+
+                </a>
+            </div>
+            <div class="blogs-right left">
+                <p>April 16, 2021
+                    6 mins</p>
+                <h4>Design tips for designers, that cover <br>
+                    everything you need</h4>
+                <a href="#">Read the article <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M10.1433 5.64833L5.67333 1.17833L6.85167 0L13.3333 6.48167L6.85167 12.9633L5.67333 11.785L10.1433 7.315H0V5.64833H10.1433Z"
+                            fill="white" />
+                    </svg>
+                </a>
+                <p>April 16, 2021
+                    5 mins</p>
+                <h4>How to build rapport with your web design <br>
+                    clients</h4>
+                <a href="#">Read the article <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M10.1433 5.64833L5.67333 1.17833L6.85167 0L13.3333 6.48167L6.85167 12.9633L5.67333 11.785L10.1433 7.315H0V5.64833H10.1433Z"
+                            fill="white" />
+                    </svg>
+                </a>
+                <p>April 16, 2021
+                    5 mins</p>
+                <h4>Top 6 free website mockup tools 2021</h4>
+                <a href="#">Read the article <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M10.1433 5.64833L5.67333 1.17833L6.85167 0L13.3333 6.48167L6.85167 12.9633L5.67333 11.785L10.1433 7.315H0V5.64833H10.1433Z"
+                            fill="white" />
+                    </svg>
+                </a>
+                <p>April 16, 2021
+                    7 mins</p>
+                <h4>Logo design trends to avoid in 2021</h4>
+                <a href="#">Read the article <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M10.1433 5.64833L5.67333 1.17833L6.85167 0L13.3333 6.48167L6.85167 12.9633L5.67333 11.785L10.1433 7.315H0V5.64833H10.1433Z"
+                            fill="white" />
+                    </svg>
+                </a>
+                <p>April 16, 2021
+                    7 mins</p>
+                <h4>22 best UI design tools</h4>
+                <a href="#">Read the article <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M10.1433 5.64833L5.67333 1.17833L6.85167 0L13.3333 6.48167L6.85167 12.9633L5.67333 11.785L10.1433 7.315H0V5.64833H10.1433Z"
+                            fill="white" />
+                    </svg>
+                </a>
+
+            </div>
+            
+        </section>
+        <!--blogs-finish-->
+        <!--product-start-->
+        <section class="product">
+            <div class="product-top">
+                <div class="product-header left">
+                    <h5>Product Designer</h5>
+                    <h2>That's me!</h2>
+                </div>
+                <div class="product-text top">
+                    <p>Over the past 12 years, I've worked with a diverse range of <br>
+                        clients, from startups to Fortune 500 companies. I love crafting <br>
+                        interfaces that delight users and help businesses grow.</p>
+                </div>
+            </div>
+            
+            <div class="product-center">
+                <div class="product-img">
+                    <img src="./assets/images/product-img/pro-1.png" alt="portfolio creator">
+                </div>
+                <div class="product-img">
+                    <img src="./assets/images/product-img/pro-2.png" alt="portfolio creator">
+                </div>
+                <div class="product-img">
+                
+                        <img src="./assets/images/product-img/pro-3.png" alt="portfolio creator">
+                    
+                        <img src="./assets/images/product-img/pro-4.png" alt="portfolio creator">
+                    
+                </div>
+            </div>
+            
+            <div class="product-bootom">
+                <div class="product-content">
+                    <h4 class="top">📚 Education</h4>
+                    <h2>Stanford University<svg width="13" height="13" viewBox="0 0 13 13" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.6707 3.80625L1.70509 12.7719L0.232178 11.299L9.19675 2.33333H1.29572V0.25H12.754V11.7083H10.6707V3.80625Z"
+                                fill="black" />
+                        </svg>
+                    </h2>
+                    <p>MSc (Human Computer Interaction) <span>• 2013-2015</span> </p>
+                    
+                    <h2>MIT Summer School<svg width="13" height="13" viewBox="0 0 13 13" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.6707 3.80625L1.70509 12.7719L0.232178 11.299L9.19675 2.33333H1.29572V0.25H12.754V11.7083H10.6707V3.80625Z"
+                                fill="black" />
+                        </svg>
+                    </h2>
+                    <p>UX Training Bootcamp <span>• 2013-2014</span> </p>
+                    
+                    <h2>California State University <svg width="13" height="13" viewBox="0 0 13 13" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.6707 3.80625L1.70509 12.7719L0.232178 11.299L9.19675 2.33333H1.29572V0.25H12.754V11.7083H10.6707V3.80625Z"
+                                fill="black" />
+                        </svg>
+                    </h2>
+                    <p>BSc in Software Engineering <span>• 2009-2012</span> </p>
+                    
+                </div>
+                <div class="product-content">
+                    <h4 class="top">💼 Work Experience</h4>
+                    <h2>SpaceFleet <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.6707 3.80625L1.70509 12.7719L0.232178 11.299L9.19675 2.33333H1.29572V0.25H12.754V11.7083H10.6707V3.80625Z" fill="black"/>
+                        </svg>
+                        
+                    </h2>
+                   <img src="./assets/svgs/work-1.svg" alt="" class="space left">
+                        
+                    <p>Senior Product Designer <span>• April 2019 - Current</span> </p>
+                    
+
+
+
+                    <h2>MusicMash <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.6707 3.80625L1.70509 12.7719L0.232178 11.299L9.19675 2.33333H1.29572V0.25H12.754V11.7083H10.6707V3.80625Z" fill="black"/>
+                        </svg>
+                        
+                    </h2>
+                    <img src="./assets/svgs/work-2.svg" alt="" class="music top">
+                    <p>Information Architect <span>• April 2016 - May 2017</span> </p>
+                    
+                    <h2>Kingdom <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.6707 3.80625L1.70509 12.7719L0.232178 11.299L9.19675 2.33333H1.29572V0.25H12.754V11.7083H10.6707V3.80625Z" fill="black"/>
+                        </svg>
+                        
+                    </h2>
+                    <img src="./assets/svgs/work-3.svg" alt="" class="kingdom left">
+                    <p>UI Designer<span>• April 2016 - May 2017</span></p>
+                    
+                </div>
+            </div>
+
+        </section>
+        <!--product finish-->
+        <!--Testimonials-->
+        
+        <section class="testimonials">
+            <div class="testimonials-top">
+                <h5>Testimonials</h5>
+                <p>Word on the street</p>
+            </div>
+            <div class="testimonials-bottom">
+                <div class="testimonials-img testimonialsimg">
+                    <img src="./assets/svgs/tes.svg" alt="">
+                </div>
+                <div class="testimonials-text left"><svg width="45" height="45" viewBox="0 0 45 45" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M0.101807 44.9357V22.8948C0.101807 10.7409 8.5762 0.854004 18.994 0.854004V8.201C12.0494 8.201 6.39923 14.7928 6.39923 22.8948H18.994V44.9357H0.101807ZM44.1835 0.854004V8.201C37.2389 8.201 31.5887 14.7928 31.5887 22.8948H44.1835V44.9357H25.2913V22.8948C25.2913 10.7409 33.7657 0.854004 44.1835 0.854004Z"
+                            fill="url(#paint0_linear_1_832)" />
+                        <defs>
+                            <linearGradient id="paint0_linear_1_832" x1="-8.416" y1="44.9357" x2="49.7036" y2="19.1351"
+                                gradientUnits="userSpaceOnUse">
+                                <stop offset="0.197917" stop-color="#B16CEA" />
+                                <stop offset="0.557292" stop-color="#FF5E69" />
+                                <stop offset="0.828125" stop-color="#FF8A56" />
+                                <stop offset="1" stop-color="#FFA84B" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <p>Jade helped us build a software so <br>
+                        intuitive that it didn't need a <br>
+                        walkthrough. He solved complex <br>
+                        problems with brilliant design.</p>
+                    <h5>John Frankin</h5>
+                    <h6>Founder, Double Bunch <span ><svg width="83" height="34" viewBox="0 0 103 54" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 0H54V54H0V0Z" fill="black" />
+                                <path
+                                    d="M25.8279 26.364L30.7779 31.314L29.3639 32.728L22.9999 26.364L29.3639 20L30.7779 21.414L25.8279 26.364Z"
+                                    fill="white" />
+                                <path d="M49 0H103V54H49V0Z" fill="black" />
+                                <path
+                                    d="M76.95 26.364L72 21.414L73.414 20L79.778 26.364L73.414 32.728L72 31.314L76.95 26.364Z"
+                                    fill="white" />
+                            </svg></span> </h6>
+                </div>
+            </div>
+
+        </section>
+        <!--testimonials finish-->
+        
+        <section class="faq">
+            <div class="faq-top">
+                <h5 class="top">FAQ</h5>
+            <h2 class="left">Frequently asked questions</h2>
+            
+            </div>
+            <div class="faq-bottom">
+                <div class="faq-content">
+                    <h3>What type of projects do you take on? <span><svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 5.17166L11.95 0.22168L13.364 1.63568L7 7.99966L0.635986 1.63568L2.04999 0.22168L7 5.17166Z" fill="white"/>
+                        </svg>
+                        </span> </h3>
+                    
+                    <h3>What is your hourly rate? 
+                         <span><svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 5.17166L11.95 0.22168L13.364 1.63568L7 7.99966L0.635986 1.63568L2.04999 0.22168L7 5.17166Z" fill="white"/>
+                            </svg>
+                            </span> </h3>
+                    
+                    <h3> What time-zone do you work in? <span><svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 5.17166L11.95 0.22168L13.364 1.63568L7 7.99966L0.635986 1.63568L2.04999 0.22168L7 5.17166Z" fill="white"/>
+                        </svg>
+                        </span> </h3>
+                    
+                    <h3> What is the typical timeline for a project? <span><svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 5.17166L11.95 0.22168L13.364 1.63568L7 7.99966L0.635986 1.63568L2.04999 0.22168L7 5.17166Z" fill="white"/>
+                        </svg>
+                        </span> </h3>
+                        
+                </div>
+                <div class="faq-content">
+                    <h3>How do you charge for projects ? <span><svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 5.17166L11.95 0.22168L13.364 1.63568L7 7.99966L0.635986 1.63568L2.04999 0.22168L7 5.17166Z" fill="white"/>
+                        </svg>
+                        </span> </h3>
+                    
+                    <h3> What does your design process look like? <span><svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 5.17166L11.95 0.22168L13.364 1.63568L7 7.99966L0.635986 1.63568L2.04999 0.22168L7 5.17166Z" fill="white"/>
+                        </svg>
+                        </span> </h3>
+                    
+                    <h3> What metrics do you use to measure success? <span><svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 5.17166L11.95 0.22168L13.364 1.63568L7 7.99966L0.635986 1.63568L2.04999 0.22168L7 5.17166Z" fill="white"/>
+                        </svg>
+                        </span> </h3>
+                    
+                    <h3> What if I need help after the project is complete? <span><svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 5.17166L11.95 0.22168L13.364 1.63568L7 7.99966L0.635986 1.63568L2.04999 0.22168L7 5.17166Z" fill="white"/>
+                        </svg>
+                        </span> </h3>
+                    
+                </div>
+            </div>
+        </section>
+        <!--faq finish-->
+        
+        <footer>
+            <div class="footer-top">
+                <h3>Ready to make something kickass?</h3>
+                <h5>Let's get on a call.</h5>
+            </div>
+            <div class="footer-center">
+                <div class="footer-left">
+                    <div class="fotter-left-svg"><svg width="197" height="21" viewBox="0 0 197 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.492012 20.0002V1.47439H8.10126C9.3778 1.47439 10.505 1.69819 11.4831 2.1458C12.4778 2.5934 13.257 3.25651 13.8206 4.13514C14.3843 5.01377 14.6661 6.09957 14.6661 7.39267C14.6661 8.65257 14.376 9.72187 13.7958 10.6005C13.2321 11.4792 12.4529 12.1506 11.4583 12.6148C10.4802 13.0624 9.3612 13.2862 8.10126 13.2862H4.34637V20.0002H0.492012ZM4.34637 9.92907H8.12612C8.93844 9.92907 9.585 9.69697 10.0657 9.23287C10.5631 8.76867 10.8117 8.15527 10.8117 7.39267C10.8117 6.61357 10.5631 5.99186 10.0657 5.52768C9.585 5.0635 8.93844 4.83141 8.12612 4.83141H4.34637V9.92907ZM22.3187 20.2986C20.9759 20.2986 19.7491 19.9919 18.6384 19.3785C17.5442 18.7651 16.6739 17.928 16.0274 16.867C15.3808 15.7894 15.0576 14.5709 15.0576 13.2116C15.0576 11.8356 15.3808 10.6171 16.0274 9.55607C16.6739 8.49517 17.5442 7.65797 18.6384 7.04457C19.7491 6.43117 20.9759 6.12447 22.3187 6.12447C23.6615 6.12447 24.8799 6.43117 25.9741 7.04457C27.0848 7.65797 27.9634 8.49517 28.61 9.55607C29.2565 10.6171 29.5798 11.8356 29.5798 13.2116C29.5798 14.5709 29.2565 15.7894 28.61 16.867C27.9634 17.928 27.0848 18.7651 25.9741 19.3785C24.8799 19.9919 23.6615 20.2986 22.3187 20.2986ZM22.3187 16.9416C23.3465 16.9416 24.1671 16.5934 24.7805 15.8972C25.4104 15.2009 25.7254 14.3057 25.7254 13.2116C25.7254 12.134 25.4104 11.2471 24.7805 10.5508C24.1671 9.83797 23.3465 9.48147 22.3187 9.48147C21.3074 9.48147 20.4868 9.83797 19.8568 10.5508C19.2269 11.2471 18.9119 12.134 18.9119 13.2116C18.9119 14.3057 19.2269 15.2009 19.8568 15.8972C20.4868 16.5934 21.3074 16.9416 22.3187 16.9416ZM31.0724 20.0002V6.42287H34.5537V8.46197C34.9019 7.61647 35.3909 7.04457 36.0209 6.74617C36.6674 6.43117 37.4051 6.27367 38.234 6.27367H39.6514V9.50637H37.861C36.9492 9.50637 36.2115 9.78817 35.6479 10.3519C35.0842 10.8989 34.8024 11.6781 34.8024 12.6894V20.0002H31.0724ZM47.9023 20.1494C46.2611 20.1494 44.9846 19.7101 44.0729 18.8315C43.1776 17.9363 42.73 16.6929 42.73 15.1014V9.65557H40.3926V6.42287H40.5666C42.0089 6.42287 42.73 5.72662 42.73 4.33407V2.34473H46.4601V6.42287H49.643V9.65557H46.4601V15.1014C46.4601 16.4774 47.2309 17.1654 48.7727 17.1654C49.0048 17.1654 49.2949 17.1405 49.643 17.0908V20.0251C49.0959 20.108 48.5157 20.1494 47.9023 20.1494ZM52.2128 20.0002V9.65557H49.9002V6.42287H52.2128V6.02497C52.2128 4.41696 52.6853 3.17362 53.6303 2.295C54.5752 1.41637 55.8931 0.977051 57.5841 0.977051C58.0814 0.977051 58.5207 1.0185 58.902 1.10139V4.28434C58.587 4.23461 58.3135 4.20974 58.0814 4.20974C56.6557 4.20974 55.9429 4.81483 55.9429 6.02497V6.42287H58.8772V9.65557H55.9429V20.0002H52.2128ZM66.4194 20.2986C65.0766 20.2986 63.8498 19.9919 62.7391 19.3785C61.6449 18.7651 60.7746 17.928 60.1281 16.867C59.4815 15.7894 59.1583 14.5709 59.1583 13.2116C59.1583 11.8356 59.4815 10.6171 60.1281 9.55607C60.7746 8.49517 61.6449 7.65797 62.7391 7.04457C63.8498 6.43117 65.0766 6.12447 66.4194 6.12447C67.7622 6.12447 68.9807 6.43117 70.0748 7.04457C71.1855 7.65797 72.0641 8.49517 72.7107 9.55607C73.3572 10.6171 73.6805 11.8356 73.6805 13.2116C73.6805 14.5709 73.3572 15.7894 72.7107 16.867C72.0641 17.928 71.1855 18.7651 70.0748 19.3785C68.9807 19.9919 67.7622 20.2986 66.4194 20.2986ZM66.4194 16.9416C67.4472 16.9416 68.2678 16.5934 68.8812 15.8972C69.5112 15.2009 69.8261 14.3057 69.8261 13.2116C69.8261 12.134 69.5112 11.2471 68.8812 10.5508C68.2678 9.83797 67.4472 9.48147 66.4194 9.48147C65.4081 9.48147 64.5875 9.83797 63.9576 10.5508C63.3276 11.2471 63.0126 12.134 63.0126 13.2116C63.0126 14.3057 63.3276 15.2009 63.9576 15.8972C64.5875 16.5934 65.4081 16.9416 66.4194 16.9416ZM75.1731 20.0002V1.47439H78.9031V20.0002H75.1731ZM81.1411 5.20441V1.47439H84.8711V5.20441H81.1411ZM81.1411 20.0002V6.42287H84.8711V20.0002H81.1411ZM93.6243 20.2986C92.2814 20.2986 91.0547 19.9919 89.944 19.3785C88.8498 18.7651 87.9795 17.928 87.3329 16.867C86.6864 15.7894 86.3631 14.5709 86.3631 13.2116C86.3631 11.8356 86.6864 10.6171 87.3329 9.55607C87.9795 8.49517 88.8498 7.65797 89.944 7.04457C91.0547 6.43117 92.2814 6.12447 93.6243 6.12447C94.9671 6.12447 96.1855 6.43117 97.2797 7.04457C98.3904 7.65797 99.269 8.49517 99.916 9.55607C100.562 10.6171 100.885 11.8356 100.885 13.2116C100.885 14.5709 100.562 15.7894 99.916 16.867C99.269 17.928 98.3904 18.7651 97.2797 19.3785C96.1855 19.9919 94.9671 20.2986 93.6243 20.2986ZM93.6243 16.9416C94.6521 16.9416 95.4727 16.5934 96.0861 15.8972C96.716 15.2009 97.031 14.3057 97.031 13.2116C97.031 12.134 96.716 11.2471 96.0861 10.5508C95.4727 9.83797 94.6521 9.48147 93.6243 9.48147C92.613 9.48147 91.7924 9.83797 91.1624 10.5508C90.5325 11.2471 90.2175 12.134 90.2175 13.2116C90.2175 14.3057 90.5325 15.2009 91.1624 15.8972C91.7924 16.5934 92.613 16.9416 93.6243 16.9416ZM115.574 20.2986C114.248 20.2986 113.013 20.0582 111.869 19.5775C110.742 19.0967 109.756 18.4253 108.91 17.5633C108.065 16.7012 107.402 15.69 106.921 14.5295C106.457 13.369 106.225 12.1008 106.225 10.7249C106.225 9.34887 106.457 8.08067 106.921 6.92027C107.385 5.7432 108.04 4.73195 108.885 3.88647C109.731 3.02442 110.717 2.36131 111.844 1.89713C112.988 1.41637 114.232 1.17599 115.574 1.17599C116.917 1.17599 118.119 1.39979 119.18 1.84739C120.258 2.295 121.169 2.8918 121.916 3.6378C122.662 4.38381 123.192 5.2127 123.507 6.12447L120.1 7.76567C119.785 6.87047 119.23 6.13277 118.434 5.55255C117.655 4.95575 116.702 4.65734 115.574 4.65734C114.48 4.65734 113.519 4.9143 112.69 5.42822C111.861 5.94213 111.214 6.65497 110.75 7.56677C110.303 8.46197 110.079 9.51467 110.079 10.7249C110.079 11.9351 110.303 12.996 110.75 13.9078C111.214 14.8196 111.861 15.5325 112.69 16.0464C113.519 16.5603 114.48 16.8172 115.574 16.8172C116.702 16.8172 117.655 16.5271 118.434 15.9469C119.23 15.3501 119.785 14.6041 120.1 13.7089L123.507 15.3501C123.192 16.2619 122.662 17.0908 121.916 17.8368C121.169 18.5828 120.258 19.1796 119.18 19.6272C118.119 20.0748 116.917 20.2986 115.574 20.2986ZM125.242 20.0002V6.42287H128.723V8.46197C129.071 7.61647 129.56 7.04457 130.19 6.74617C130.837 6.43117 131.575 6.27367 132.403 6.27367H133.821V9.50637H132.03C131.119 9.50637 130.381 9.78817 129.817 10.3519C129.254 10.8989 128.972 11.6781 128.972 12.6894V20.0002H125.242ZM141.437 20.2986C140.011 20.2986 138.76 19.9836 137.682 19.3537C136.621 18.7071 135.792 17.8451 135.195 16.7675C134.615 15.69 134.325 14.4963 134.325 13.1867C134.325 11.8273 134.623 10.6171 135.22 9.55607C135.834 8.49517 136.654 7.65797 137.682 7.04457C138.726 6.43117 139.895 6.12447 141.188 6.12447C142.465 6.12447 143.609 6.42287 144.62 7.01967C145.631 7.61647 146.435 8.42057 147.032 9.43177C147.629 10.4265 147.927 11.5538 147.927 12.8137C147.927 13.0789 147.911 13.3442 147.877 13.6094C147.861 13.8581 147.819 14.0736 147.753 14.256H138.204C138.32 15.1014 138.668 15.7811 139.249 16.295C139.829 16.809 140.575 17.0659 141.487 17.0659C142.15 17.0659 142.713 16.9333 143.178 16.668C143.658 16.4028 144.031 16.0381 144.297 15.5739L147.281 16.9913C146.866 17.986 146.137 18.79 145.092 19.4034C144.048 20.0002 142.829 20.2986 141.437 20.2986ZM141.188 9.10847C140.459 9.10847 139.837 9.31577 139.323 9.73017C138.809 10.1447 138.461 10.7415 138.279 11.5206H143.973C143.907 10.7912 143.617 10.211 143.103 9.77987C142.606 9.33227 141.967 9.10847 141.188 9.10847ZM153.451 20.2986C152.423 20.2986 151.528 20.1245 150.766 19.7764C150.02 19.4117 149.439 18.9309 149.025 18.3341C148.627 17.7207 148.428 17.041 148.428 16.295C148.428 15.2838 148.809 14.4549 149.572 13.8084C150.335 13.1452 151.404 12.6728 152.78 12.391L157.032 11.4957V11.0481C157.032 10.5342 156.841 10.1281 156.46 9.82967C156.079 9.51467 155.573 9.35717 154.943 9.35717C154.28 9.35717 153.692 9.53957 153.178 9.90427C152.68 10.2524 152.332 10.7332 152.133 11.3465L148.926 9.80477C149.323 8.67747 150.061 7.78227 151.139 7.11917C152.233 6.45607 153.501 6.12447 154.943 6.12447C156.104 6.12447 157.115 6.33167 157.977 6.74617C158.856 7.16057 159.535 7.74087 160.016 8.48687C160.513 9.21627 160.762 10.0701 160.762 11.0481V20.0002H157.281V18.7569C156.767 19.3039 156.195 19.7018 155.565 19.9505C154.952 20.1826 154.247 20.2986 153.451 20.2986ZM152.283 16.2453C152.283 16.6598 152.44 16.983 152.755 17.2151C153.07 17.4472 153.493 17.5633 154.023 17.5633C154.869 17.5633 155.582 17.298 156.162 16.7675C156.742 16.237 157.032 15.5905 157.032 14.8279V14.1814L153.451 14.9771C152.672 15.1595 152.283 15.5822 152.283 16.2453ZM169.015 20.1494C167.374 20.1494 166.098 19.7101 165.186 18.8315C164.291 17.9363 163.843 16.6929 163.843 15.1014V9.65557H161.506V6.42287H161.68C163.122 6.42287 163.843 5.72662 163.843 4.33407V2.34473H167.573V6.42287H170.756V9.65557H167.573V15.1014C167.573 16.4774 168.344 17.1654 169.886 17.1654C170.118 17.1654 170.408 17.1405 170.756 17.0908V20.0251C170.209 20.108 169.629 20.1494 169.015 20.1494ZM178.772 20.2986C177.429 20.2986 176.202 19.9919 175.091 19.3785C173.997 18.7651 173.127 17.928 172.48 16.867C171.834 15.7894 171.511 14.5709 171.511 13.2116C171.511 11.8356 171.834 10.6171 172.48 9.55607C173.127 8.49517 173.997 7.65797 175.091 7.04457C176.202 6.43117 177.429 6.12447 178.772 6.12447C180.115 6.12447 181.333 6.43117 182.427 7.04457C183.538 7.65797 184.417 8.49517 185.063 9.55607C185.71 10.6171 186.033 11.8356 186.033 13.2116C186.033 14.5709 185.71 15.7894 185.063 16.867C184.417 17.928 183.538 18.7651 182.427 19.3785C181.333 19.9919 180.115 20.2986 178.772 20.2986ZM178.772 16.9416C179.8 16.9416 180.62 16.5934 181.234 15.8972C181.864 15.2009 182.178 14.3057 182.178 13.2116C182.178 12.134 181.864 11.2471 181.234 10.5508C180.62 9.83797 179.8 9.48147 178.772 9.48147C177.76 9.48147 176.94 9.83797 176.31 10.5508C175.68 11.2471 175.365 12.134 175.365 13.2116C175.365 14.3057 175.68 15.2009 176.31 15.8972C176.94 16.5934 177.76 16.9416 178.772 16.9416ZM187.525 20.0002V6.42287H191.007V8.46197C191.355 7.61647 191.844 7.04457 192.474 6.74617C193.12 6.43117 193.858 6.27367 194.687 6.27367H196.104V9.50637H194.314C193.402 9.50637 192.665 9.78817 192.101 10.3519C191.537 10.8989 191.255 11.6781 191.255 12.6894V20.0002H187.525Z" fill="white"/>
+                        </svg>
+                        <svg width="4" height="4" viewBox="0 0 4 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.244019 4.00002V0.27002H3.97401V4.00002H0.244019Z" fill="url(#paint0_linear_1_944)"/>
+                            <defs>
+                            <linearGradient id="paint0_linear_1_944" x1="-1.98898" y1="0.53722" x2="5.18601" y2="0.53022" gradientUnits="userSpaceOnUse">
+                            <stop offset="0.197917" stop-color="#B16CEA"/>
+                            <stop offset="0.557292" stop-color="#FF5E69"/>
+                            <stop offset="0.828125" stop-color="#FF8A56"/>
+                            <stop offset="1" stop-color="#FFA84B"/>
+                            </linearGradient>
+                            </defs>
+                            </svg></div>
+                        <address>4353 Delaware Avenue, San Francisco, USA</address> 
+                        <a href="#"> <span><svg width="30" height="21" viewBox="0 0 30 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.48148 0H28.1481C28.5411 0 28.9179 0.122916 29.1957 0.341709C29.4736 0.560501 29.6297 0.857247 29.6297 1.16666V19.8334C29.6297 20.1428 29.4736 20.4395 29.1957 20.6583C28.9179 20.8771 28.5411 21 28.1481 21H1.48148C1.08857 21 0.711748 20.8771 0.433916 20.6583C0.156084 20.4395 0 20.1428 0 19.8334V1.16666C0 0.857247 0.156084 0.560501 0.433916 0.341709C0.711748 0.122916 1.08857 0 1.48148 0ZM14.9037 10.1301L5.40444 3.77766L3.48592 5.55566L14.923 13.2031L26.1541 5.54984L24.2163 3.78466L14.9052 10.1301H14.9037Z" fill="#424242" fill-opacity="0.5"/>
+                            </svg></span>
+                            hi@thefolio.com</a>   
+                </div>
+                <div class="footer-right">
+                    
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Dribbble</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Instagram</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">Experience</a></li>
+                            <li><a href="#">Projects</a></li>
+                            <li><a href="#">Twitter</a></li>
+                        </ul>
+                    
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-bottom-left">
+                    <a href="#">© All rights reserved.</a>
+                </div>
+                <div class="footer-bootom-center">
+                    <a href="#">Sumit Hegde</a>
+                    <a href="#">. Powered by</a>
+                    <a href="#">Webflow</a>
+                </div>
+                <div class="footer-bottom-right">
+                    <a href="#">/Image License Info</a>
+                    <a href="#">/Instructions</a>
+                    <a href="#">/Changelog</a>
+                    <a href="#">/Style Guide</a>
+                </div>
+            </div>
+        </footer>
+    <!---->
+    </div>
+<script src="./assets/js/script.js"></script>
+</body>
+
+</html>
