@@ -10,6 +10,12 @@ sr.reveal('.left', {
     distance: '25rem',
     delay: 300,
 })
+window.sr = ScrollReveal();
+sr.reveal('.top', {
+    origin: 'top',
+    duration: 1000,
+    distance: '25rem',
+    delay: 300,})
 ScrollReveal().reveal('.portfolio-creator',{delay:250});
 ScrollReveal().reveal('.testimonialsimg',{delay:500});
 ScrollReveal().reveal('.faq',{delay:750});

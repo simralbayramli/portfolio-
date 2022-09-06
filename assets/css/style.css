@@ -1041,18 +1041,9 @@ footer{
             display: flex;
             flex-direction: column;
          }
-         .footer-bottom-left{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-         }
          
-         .footer-bootom-center{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-         }
-         .footer-bottom-right{
+         
+         .footer-bottom-content{
             display: flex;
             align-items: center;
             justify-content: center;
@@ -1330,9 +1321,7 @@ footer{
              gap:30px
             
          }
-         .footer-right ul{
-            text-align: center;
-         }
+         
          }
          
         
