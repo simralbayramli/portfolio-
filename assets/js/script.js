@@ -1,6 +1,13 @@
+var mobilMenu=document.getElementById("mobilMenu");
+mobilMenu.style.maxHeight="0px";
+function menuTaggle(){
+    if(mobilMenu.style.maxHeight=="0px"){
+        mobilMenu.style.maxHeight="200px"
+    }else{
+        mobilMenu.style.maxHeight="0px"
+    }
 
-function openNavbar(){
-    document.querySelector("#navBar").style.width="20%"
+
 }
 
 window.sr = ScrollReveal();
