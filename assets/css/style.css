@@ -807,7 +807,7 @@ footer{
             font-size: 25px;
         }
         .about>.right-side{
-            width: 100%;
+        flex-basis: 100%;
             
         }
         .trusted>.trusted-bottom :nth-child(1){
@@ -1032,7 +1032,11 @@ footer{
          .faq-content h3{
             font-size: 16px;
          }
-        
+          .content{
+            display: flex;
+            justify-content: center;
+            
+          }
          
          .footer-top{
     
