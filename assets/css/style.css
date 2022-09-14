@@ -71,7 +71,7 @@ transform: scale(1);
     
 }
 .about>.left-side{
-    padding-top: 165px;
+    padding-top: 155px;
     flex-basis: 58%;
     ;
 }
@@ -607,30 +607,33 @@ transform: scale(1);
 }
 .faq-bottom{
     display: flex;
-    
     justify-content: center;
-    
     gap:80px
 
 }
 
 .faq-content{
     padding-top: 120px;
-    flex-basis: 40%;
-    
+    flex-basis: 40%;   
 }
-.faq-bottom  h3{
+.content{
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 49px;
+    padding-top: 30px;
+    border-bottom: 1px solid#E5E5E5;
+}
+.content  h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     color: #fff;
     font-weight: 700;
     font-size: 20px;
     line-height: 31px;
-    letter-spacing: 0.3px;
-    padding-bottom: 49px;
-    padding-top: 30px;
-    border-bottom: 1px solid#E5E5E5
-    ;
+    letter-spacing: 0.3px;  
 }
 
 footer{
@@ -761,8 +764,6 @@ footer{
 .fa-bars-staggered {
     font-size: 20px;
     display: block;
-    position: fixed;
-    right: 30px;
     cursor: pointer;
 
 }
@@ -817,9 +818,7 @@ footer{
             
         }
         .trusted>.trusted-bottom :nth-child(2){
-            justify-content: flex-end;
-            align-items: center;
-            width: 100%;
+            display: none;
             
             
         }
@@ -840,11 +839,11 @@ footer{
          .services-top h5{
             font-size: 70px;
          }
-        .services-top p{
+        .services-top> p{
             width: 100%;
             text-align: center;
-            font-size: 40px;
-            line-height: 55px;
+            font-size: 25px;
+            line-height: 35px;
         
          }
          .services-bottom{
@@ -935,17 +934,19 @@ footer{
             margin-top: -30px;
             padding-bottom: 10px;
          }
-        .product-text{
-            flex-basis: 100%;
+        .product-text {
+            width: 100%;
             display: flex;
-            align-items: flex-start;
-            
-            font-size: 20px;
-            line-height: 28px;
+            justify-content: center;
+            align-items: center;
+          
         } 
 
             .product-text p{
                 margin-top: -100px;
+                font-size: 20px;
+            line-height: 28px;
+               
             }
             
         
@@ -990,6 +991,7 @@ footer{
             justify-content: center;
             
          }
+         
          .testimonials-text p{
             width: 100%;
             font-size: 35px;
@@ -1241,12 +1243,16 @@ footer{
             display: flex;
             align-items: flex-start;
             
-            font-size: 18px;
-            line-height: 28px;
+            
         } 
 
             .product-text p{
                 margin-top: -100px;
+                text-align: center;
+            
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 20px;
             }
             
         
