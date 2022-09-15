@@ -39,8 +39,8 @@
 }
 .navbar a:hover{
     cursor: pointer;
-    transform: translateY(12px);
-    transition:cubic-bezier(0.23, 1, 0.320, 1);
+
+    
 
 }
 .navbar   a::after{
@@ -627,7 +627,7 @@ transform: scale(1);
 .content  h3{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
     color: #fff;
     font-weight: 700;
@@ -1035,7 +1035,7 @@ footer{
           .content{
             display: flex;
             justify-content: center;
-            
+
           }
          
          .footer-top{
@@ -1254,9 +1254,9 @@ footer{
                 margin-top: -100px;
                 text-align: center;
             
-                font-size: 15px;
+                font-size: 14px;
                 font-weight: 400;
-                line-height: 20px;
+                line-height: 28px;
             }
             
         
